@@ -1,0 +1,19 @@
+<html>
+<head>
+<title>test websocket</title>
+<!-- Import JavaScript Libraries. -->
+<script src="/js/reconnecting-websocket.min.js"></script>
+<script src="/js/index.js"></script>
+<script type="text/javascript">
+	
+</script>
+</head>
+
+<body onload="connect()">
+	<h1>test websocket</h1>
+	<input type="text" id="text" />
+	<input type="button" onclick="send()" value="发送" />
+	<button onclick="closeWebSocket()">关闭WebSocket连接</button>
+	<div id="message"></div>
+</body>
+</html>
